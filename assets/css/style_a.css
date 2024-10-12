@@ -1,0 +1,355 @@
+
+:root {
+  --color-primary: #7CC14A; /* Verde claro */
+  --color-secondary: #029B75; /* Verde agua */
+  --color-tercer: #e0f7da; /* Verde claro */
+  --color-text: #000000; /* Negro */
+  --color-background: #ffffff; /* Blanco */
+  --color-muted: #2a2a2a; /* Gris oscuro para textos secundarios */
+  --color-border: #dddddd; /* Gris para bordes */
+}
+
+/* -------------------------------------------------------------------------------------- */
+/*                                        Estilos Generales                                */
+/* -------------------------------------------------------------------------------------- */
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('https://raw.githubusercontent.com/icekuroba/St-phanie-Colette-Th-bault/main/Fondo/imagenfondo2.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.816);
+  z-index: -1;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul, li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: var(--color-primary);
+}
+
+p, li {
+  text-align: justify;
+  font-size: 18px;
+  line-height: 25px;
+  color: var(--color-muted);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+/* Estilo general para todas las secciones */
+section {
+  padding: 60px 20px;  /* Espaciado uniforme */
+  margin-bottom: 40px; /* Margen inferior uniforme */
+  text-align: center;  /* Alineación centrada */
+}
+
+/* Ajustes para pantallas pequeñas */
+@media (max-width: 768px) {
+  section {
+    padding: 30px 10px;  /* Ajuste del espaciado en pantallas pequeñas */
+    margin-bottom: 20px;
+  }
+}
+
+.btn {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.btn:hover {
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* -------------------------------------------------------------------------------------- */
+/*                            Barra de Navegación (versión PC)                             */
+/* -------------------------------------------------------------------------------------- */
+.main-nav {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.main-nav ul {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 20px;
+}
+
+.main-nav ul li a {
+  color: var(--color-text);
+  font-weight: bold;
+  margin: 0 15px;
+}
+
+.main-nav ul li a:hover {
+  color: var(--color-primary);
+}
+
+.main-nav .logos img {
+  height: 40px;
+  margin-right: 10px;
+}
+
+/* -------------------------------------------------------------------------------------- */
+/*                            Secciones específicas (Lab, About, etc.)                     */
+/* -------------------------------------------------------------------------------------- */
+
+/* Ejemplo de sección unificada (Lab's interests, About) */
+.section-heading h6 {
+  font-size: 28px;
+  color: var(--color-primary);
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+
+#lab-interests, #about, #group-members {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#lab-interests .right-content, #about .right-content {
+  flex: 0 0 70%;
+  text-align: justify;
+  padding-right: 25px;
+}
+
+#lab-interests .left-content, #about .left-content {
+  flex-basis: 30%;
+  text-align: center;
+  padding-right: 20px;
+}
+
+/* Sección Home (ajustada para todas las secciones) */
+.home-content, .publication-list, .vacancies-list {
+  background-color: #fff;
+  margin: 20px auto;
+  max-width: 1100px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+  .home-content, .publication-list, .vacancies-list {
+    max-width: 100%;
+    padding: 10px;
+  }
+}
+
+/* -------------------------------------------------------------------------------------- */
+/*                              Estilos Móviles                                            */
+/* -------------------------------------------------------------------------------------- */
+@media (max-width: 768px) {
+  .main-nav ul {
+    display: none;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+  }
+
+  .menu-trigger.active + .main-nav ul {
+    display: flex;
+  }
+
+  .logos img {
+    height: 40px;
+  }
+
+  .section-heading h6 {
+    font-size: 18px;
+  }
+
+  #about .right-content, #lab-interests .right-content {
+    padding: 10px;
+    text-align: center;
+  }
+
+  #about .left-content, #lab-interests .left-content {
+    padding: 10px;
+  }
+}
+
+/* -------------------------------------------------------------------------------------- */
+/*                     Footer (manteniendo estilo general)                                */
+/* -------------------------------------------------------------------------------------- */
+footer {
+  margin-top: 60px;
+  padding: 50px 0;
+  background-color: #a3dcb2;
+  text-align: center;
+}
+
+footer .right-text-content ul li a {
+  background-color: #fff;
+  color: var(--color-primary);
+}
+
+/* -------------------------------------------------------------------------------------- */
+/*                              Sección "Lab's interests" (versión)                    */
+/* -------------------------------------------------------------------------------------- */
+#lab-interests {
+  padding: 80px 20px;
+  max-width: 1200px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+@media (min-width: 1024px) {
+  #lab-interests {
+    margin: 0 auto;
+    max-width: 1100px;
+    width: 80%; /* El contenedor ocupa el 80% del ancho de la pantalla */
+    display: flex;
+    justify-content: center; /* Centra el contenido horizontalmente */
+    align-items: center; /* Alinea verticalmente los elementos */
+  }
+  #lab-interests .right-content {
+    flex: 0 0 70%;  /* Ajusta la columna de contenido a un 70% del ancho */
+    max-width: 70%; /* Máximo 70% para que no ocupe todo el espacio */
+    text-align: justify; /* Justificar el texto para mayor legibilidad */
+    padding-right: 25px;
+  }
+  #lab-interests .left-content {
+    flex-basis: 30%;  /* Ajusta la columna izquierda al 30% del ancho */
+    text-align: center; /* Centra la imagen y el contenido */
+    padding-right: 20px; /* Añade un margen derecho para separar las columnas */
+  }
+}
+
+/* -------------------------------------------------------------------------------------- */
+/*                              Sección "About" (versión PC)                               */
+/* -------------------------------------------------------------------------------------- */
+#about {
+  padding: 100px 30px;  /* Ajustar el padding para que no sea tan grande */
+  max-width: 1200px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+@media (min-width: 1024px) {
+  #about {
+    margin: 0 auto;
+    max-width: 1100px;
+    width: 80%; /* El contenedor ocupa el 80% del ancho de la pantalla */
+    display: flex;
+    justify-content: center; /* Centra el contenido horizontalmente */
+    align-items: center; /* Alinea verticalmente los elementos */
+  }
+  #about .right-content {
+    flex: 0 0 70%;  /* Ajusta la columna de contenido a un 70% del ancho */
+    max-width: 70%; /* Máximo 70% para que no ocupe todo el espacio */
+    text-align: center; /* Centra el texto en la sección */
+    padding-right: 25px;
+  }
+  #about .left-content {
+    flex-basis: 30%;  /* Ajusta la columna izquierda al 30% del ancho */
+    text-align: center; /* Centra la imagen y los iconos */
+    padding-right: 20px; /* Añade un margen derecho para separar las columnas */
+  }
+  .education-section ul, .interests-section ul {
+    list-style-type: none;   /* Elimina viñetas */
+    margin: 0;               /* Elimina márgenes predeterminados */
+    text-align: justify;
+    padding-left: 1px;       /* Añade un ligero margen a la izquierda */
+}}
+#about .img-circle1 {
+  width: 100%;
+  max-width: 200px; /* Limitar el ancho máximo de la imagen */
+  height: auto; /* Mantener la proporción de la imagen */
+  border-radius: 50%;
+  margin-bottom:15px;
+}
+#about .right-content p {
+  font-size: 16px;
+  color: #000;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+/* Educación e intereses */
+.education-section h6, .interests-section h6 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #029b75e5;
+  margin-bottom: 15px;
+}
+.education-section ul li, .interests-section ul li {
+  margin-bottom: 10px;
+  line-height: 1.4;        /* Mejora la legibilidad con una mayor altura de línea */
+  font-size: 14px;         /* Tamaño de la fuente */
+  color: #171717;          /* Color del texto */
+  text-align: justify;        /* Asegurar alineación del texto a la izquierda */
+}
+
+/* Sección "Lab Members", "Publications", "Join Us", "Video Abstracts", "Contacts" con los ajustes específicos */
+#group-members, #publications, #vacancies, #abstracts, #contact {
+  margin: 0 auto;
+  padding: 80px 30px;  /* Ajustar el padding para que no sea tan grande */
+  max-width: 1000px;
+}
+
+/* Estilos específicos para móviles */
+@media (max-width: 768px) {
+  .member, .publication-list, .vacancies-list, .contact-item {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .img-circle1, .member-photo, .contact-image {
+    max-width: 150px;
+    margin: 0 auto 20px auto;
+  }
+  .publication-list h3, .vacancies h3 {
+    font-size: 16px;
+  }
+}
+
+.footer {
+  margin-top: 60px;
+  padding: 50px 0px;
+  background-color: #a3dcb2;
+}

@@ -1,0 +1,398 @@
+:root {
+  --color-primary: #7CC14A; /* Verde claro */
+  --color-secondary: #029B75; /* Verde agua */
+  --color-tercer: #e0f7da; /* Verde claro */
+  --color-text: #000000; /* Negro */
+  --color-background: #ffffff; /* Blanco */
+  --color-muted: #2a2a2a; /* Gris oscuro para textos secundarios */
+  --color-border: #dddddd; /* Gris para bordes */
+}
+
+/* -------------------------------------------------------------------------------------- */
+/*                                        Estilos Generales                                */
+/* -------------------------------------------------------------------------------------- */
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('https://raw.githubusercontent.com/icekuroba/St-phanie-Colette-Th-bault/main/Fondo/imagenfondo2.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul, li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: var(--color-primary);
+}
+
+p, li {
+  text-align: justify;
+  font-size: 18px;
+  line-height: 25px;
+  color: var(--color-muted);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+section {
+  padding: 60px 20px;  /* Espaciado uniforme */
+  margin-bottom: 40px; /* Margen inferior uniforme */
+  text-align: center;  /* Alineación centrada */
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.btn {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.btn:hover {
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 576px) {
+  .main-content {
+    padding: 6px;
+  }
+  h1, h2, h3 {
+    font-size: 18px;
+  }
+}
+
+.section-heading h6 {
+  font-size: 28px; /* Tamaño de fuente del subtítulo */
+  color: #7CC14A; /* Verde más claro para subtítulos */
+  text-align: center; /* Alinea el subtítulo al centro */
+  letter-spacing: 1px; /* Añade un poco de espacio entre letras */
+  margin-bottom: 20px; /* Espacio debajo del subtítulo */
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.816); /* Color y opacidad del overlay */
+  z-index: -1; /* Asegura que esté detrás del contenido */
+}
+
+/* Ajustes para pantallas pequeñas */
+@media (max-width: 768px) {
+  body {
+    background-size: 140%;
+    background-position: 20% center; 
+  }
+}
+
+/* -------------------------------------------------------------------------------------- */
+/*                            Barra de Navegación (versión PC y Móvil)                    */
+/* -------------------------------------------------------------------------------------- */
+.main-nav {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: var(--color-background);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.main-nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: flex-start;
+  margin-left: 20px;
+}
+
+.main-nav ul li a {
+  color: var(--color-text);
+  font-weight: bold;
+  margin: 0 15px;
+  transition: color 0.3s ease;
+}
+
+.main-nav ul li a:hover {
+  color: var(--color-primary);
+}
+
+.main-nav .logos img {
+  height: 40px;
+  margin-right: 10px;
+  object-fit: contain;
+}
+
+@media (max-width: 768px) {
+  .main-nav ul {
+    display: none;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+  }
+  .menu-trigger {
+    display: block;
+    font-size: 30px;
+    padding: 10px;
+    position: fixed;
+    top: 15px;
+    left: 15px;
+    z-index: 1001;
+  }
+  .menu-trigger.active + .main-nav ul {
+    display: flex;
+  }
+  .logos img {
+    height: 40px;
+  }
+}
+
+/* -------------------------------------------------------------------------------------- */
+/*                            Sección Home (versión PC y Móvil)                          */
+/* -------------------------------------------------------------------------------------- */
+#home {
+  background-color: var(--color-tercer);
+  padding: 30px 0;
+  text-align: center;
+}
+
+.home-content {
+  background-color: var(--color-background);
+  margin: 20px auto;
+  max-width: 1100px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.home-image {
+  width: 100%;
+  max-width: 1000px;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .home-content {
+    max-width: 100%;
+    padding: 10px;
+  }
+  .home-image {
+    max-width: 100%;
+  }
+}
+
+/* -------------------------------------------------------------------------------------- */
+/*                          Sección "Lab Members" con distribución uniforme               */
+/* -------------------------------------------------------------------------------------- */
+#group-members {
+  max-width: 1200px; /* Mantener consistencia con el resto de las secciones */
+  margin: 0 auto; /* Centrar el contenido */
+  padding: 80px 20px; /* Ajustar el padding para espacio uniforme */
+}
+
+.member {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; /* Distribuir los elementos uniformemente */
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.member-photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.member-info {
+  flex-grow: 1;
+  text-align: left;
+}
+
+@media (max-width: 768px) {
+  .member {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .member-photo {
+    margin-bottom: 20px;
+  }
+}
+
+/* -------------------------------------------------------------------------------------- */
+/*                          Sección "Publications" (versión PC y Móvil)                   */
+/* -------------------------------------------------------------------------------------- */
+#publications {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 20px;
+}
+
+.publication-list li {
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #d0e3c7;
+}
+
+.publication-list h3 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+}
+
+.publication-list a {
+  color: var(--color-secondary);
+}
+
+.publication-list a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  #publications {
+    padding: 15px 5%;
+    text-align: justify;
+  }
+  .publication-list h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+}
+
+/* -------------------------------------------------------------------------------------- */
+/*                          Sección "Join Us" (versión PC y Móvil)                        */
+/* -------------------------------------------------------------------------------------- */
+#vacancies {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 20px;
+}
+
+.vacancies-list li {
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+#vacancies h3 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  #vacancies {
+    padding: 15px 5%;
+    text-align: justify;
+  }
+  #vacancies h3 {
+    font-size: 20px;
+  }
+}
+
+/* -------------------------------------------------------------------------------------- */
+/*                          Sección "Contacts" (versión PC y Móvil)                       */
+/* -------------------------------------------------------------------------------------- */
+#contact {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 20px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.icon-container {
+  width: 30px;
+  font-size: 24px;
+  margin-right: 20px;
+}
+
+.contact-text {
+  font-size: 15px;
+}
+
+@media (max-width: 768px) {
+  #contact {
+    padding: 15px 5%;
+  }
+}
+
+/* -------------------------------------------------------------------------------------- */
+/*                          Footer (versión PC y Móvil)                                   */
+/* -------------------------------------------------------------------------------------- */
+footer {
+  margin-top: 60px;
+  padding: 50px 0;
+  background-color: #a3dcb2;
+}
+
+footer .left-text-content p {
+  margin-top: 5px;
+  color: #A8DAB5;
+  font-size: 14px;
+  text-align: right;
+}
+
+footer .right-text-content {
+  text-align: left;
+  margin-top: 10px;
+}
+
+footer .right-text-content ul li a {
+  width: 44px;
+  height: 44px;
+  display: inline-block;
+  text-align: center;
+  line-height: 44px;
+  font-size: 20px;
+  margin-left: 15px;
+  background-color: #fff;
+  border-radius: 50%;
+  color: var(--color-primary);
+  transition: all 0.5s ease;
+}
+
+footer .right-text-content ul li a:hover {
+  color: #2a2a2a;
+}
+
+@media (max-width: 768px) {
+  footer {
+    padding: 30px 15px;
+  }
+}
