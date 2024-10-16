@@ -5,7 +5,7 @@
       o	Navega a las líneas donde se encuentran las fotos de los miembros actuales del laboratorio.
   2.	Agregar un nuevo miembro:
       o	![Código del miembro](Images/codigo_miembro.jpg)
-  3.Pega ese bloque de código debajo del último miembro.
+  3. Pega ese bloque de código debajo del último miembro.
     	o	Cambia nombre_del_miembro.jpg por el nombre de la nueva imagen que subiste.
     	o	Cambia Nombre del miembro y la descripción según corresponda.
   4.	Guardar y subir los cambios:
