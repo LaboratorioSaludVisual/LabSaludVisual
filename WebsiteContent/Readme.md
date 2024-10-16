@@ -1,12 +1,12 @@
 ## Ajustes en Website Content
 -Cómo agregar más miembros al sitio web
   1.	Localizar el código de los miembros actuales:
-        *	Abre el archivo [index.html](https://github.com/LaboratorioSaludVisual/LabSaludVisual/blob/main/index.html) o [index_es.html](https://github.com/LaboratorioSaludVisual/LabSaludVisual/blob/main/index_es.html)
-        *	Navega a las líneas donde se encuentran las fotos de los miembros actuales del laboratorio.
+        *	Abrir el archivo [index.html](https://github.com/LaboratorioSaludVisual/LabSaludVisual/blob/main/index.html) o [index_es.html](https://github.com/LaboratorioSaludVisual/LabSaludVisual/blob/main/index_es.html)
+        *	Navegar a las líneas donde se encuentran las fotos de los miembros actuales del laboratorio.
   2.	Agregar un nuevo miembro:
         *	![Código del miembro](images/codigo_miembro.jpg)
-  4. Pega ese bloque de código debajo del último miembro.
-        *	Cambia nombre_del_miembro.jpg por el nombre de la nueva imagen que subiste.
-        *	Cambia Nombre del miembro y la descripción según corresponda.
+  4. Pegar ese bloque de código debajo del último miembro.
+        *	Cambiar nombre_del_miembro.jpg por el nombre de la nueva imagen que subiste.
+        *	Cambiar Nombre del miembro y la descripción según corresponda.
   5.	Guardar y subir los cambios:
          *	Guarda el archivo actualizado y súbelo al repositorio siguiendo los pasos habituales para subir cambios a GitHub.
