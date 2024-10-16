@@ -1,7 +1,7 @@
 ## Ajustes en Website Content
 -Cómo agregar más miembros al sitio web
   1.	Localizar el código de los miembros actuales:
-        *	Abre el archivo index.html o index_es.html.
+        *	Abre el archivo [index.html](https://github.com/LaboratorioSaludVisual/LabSaludVisual/blob/main/index.html) o [index_es.html](https://github.com/LaboratorioSaludVisual/LabSaludVisual/blob/main/index_es.html)
         *	Navega a las líneas donde se encuentran las fotos de los miembros actuales del laboratorio.
   2.	Agregar un nuevo miembro:
         *	![Código del miembro](images/codigo_miembro.jpg)
