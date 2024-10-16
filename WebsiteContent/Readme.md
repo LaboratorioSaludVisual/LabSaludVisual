@@ -4,7 +4,7 @@
         *	Abre el archivo index.html o index_es.html.
         *	Navega a las líneas donde se encuentran las fotos de los miembros actuales del laboratorio.
   2.	Agregar un nuevo miembro:
-        *	![Código del miembro](Images/codigo_miembro.jpg)
+        *	![Código del miembro](images/codigo_miembro.jpg)
   4. Pega ese bloque de código debajo del último miembro.
         *	Cambia nombre_del_miembro.jpg por el nombre de la nueva imagen que subiste.
         *	Cambia Nombre del miembro y la descripción según corresponda.
