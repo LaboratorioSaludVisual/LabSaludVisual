@@ -1,6 +1,6 @@
 ## Ajustes en Website Content
 -Cómo agregar más miembros al sitio web
-  1. Subir alguna foto o inamgen a la carpeta [images](https://github.com/LaboratorioSaludVisual/LabSaludVisual/tree/main/WebsiteContent/images) dentro de WebsiteContent
+  1. Subir alguna foto o imagen a la carpeta [images](https://github.com/LaboratorioSaludVisual/LabSaludVisual/tree/main/WebsiteContent/images) dentro de WebsiteContent
   3.	Localizar el código de los miembros actuales:
         *	Abrir el archivo [index.html](https://github.com/LaboratorioSaludVisual/LabSaludVisual/blob/main/index.html) o [index_es.html](https://github.com/LaboratorioSaludVisual/LabSaludVisual/blob/main/index_es.html)
         *	Navegar a las líneas donde se encuentran las fotos de los miembros actuales del laboratorio, el cual la sección incia en la linea 172.
