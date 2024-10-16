@@ -2,7 +2,7 @@
 
 - Subir videos desde las carpetas locales:
   * En la versión en inglés:
-      1. Entrar al archivo [index.html](https://github.com/LaboratorioSaludVisual/LabSaludVisual/blob/main/index.html) que es la página de inicio en inglés.
+      1. Entrar al archivo [index.html](https://github.com/LaboratorioSaludVisual/LabSaludVisual/blob/main/index.html) 
       2. Ir a la línea 365 del código, donde empieza la sección de Video Abstracts (sección de videos).
       3. Buscar la línea 378, que tiene el siguiente código:
          * <iframe width="80%" height="450" src="VideoAbstracts/nombre_del_video.mp4" frameborder="0" allowfullscreen></iframe>
@@ -17,7 +17,7 @@
       
 - Subir videos desde Internet:
   * En la versión en inglés:
-      1. Entrar al archivo [index.html](https://github.com/LaboratorioSaludVisual/LabSaludVisual/blob/main/index.html) que es la página de inicio en inglés.
+      1. Entrar al archivo [index.html](https://github.com/LaboratorioSaludVisual/LabSaludVisual/blob/main/index.html) 
       2. Ir a la línea 365 del código, donde empieza la sección de Video Abstracts (sección de videos).
       3. Buscar la línea 382, que tiene el siguiente código y descomentarlo, es decir eliminar <!--   -->:
           * <iframe width="80%" height="450" src="https://www.youtube.com/embed/tu-video-id" frameborder="0" allowfullscreen></iframe>
