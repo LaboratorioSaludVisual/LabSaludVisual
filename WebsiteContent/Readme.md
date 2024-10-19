@@ -14,4 +14,5 @@
      <h3>Nombre del miembro</h3>
      <p>Descripción o título del miembro.</p>
    </div>
+![Código del miembro](images/codigo_miembro.jpg)
 
