@@ -24,7 +24,7 @@
   * En la versión en inglés:
       1. Entrar al archivo [index.html](https://github.com/LaboratorioSaludVisual/LabSaludVisual/blob/main/index.html) 
       2. Ir a la línea 364 del código, donde empieza la sección de Video Abstracts (sección de videos).
-      3. Buscar la línea 381, que tiene el siguiente código y descomentarlo, es decir eliminar <!--   -->:
+      3. Buscar la línea 381, que tiene el siguiente código y descomentarlo, es decir eliminar !--   --:
       ```html
       <!--iframe width="80%" height="450" src="https://www.youtube.com/embed/tu-video-id" frameborder="0" allowfullscreen></iframe-->
       ```
@@ -40,7 +40,7 @@
   * En la versión en español:
       1. Entrar al archivo [index_es.html](https://github.com/LaboratorioSaludVisual/LabSaludVisual/blob/main/index_es.html)
       2. Ir a la línea 364 del código, donde empieza la sección de Video Abstracts (sección de videos).
-      3. Buscar la línea 381, que tiene el siguiente código y descomentarlo, es decir eliminar <!--   -->:
+      3. Buscar la línea 381, que tiene el siguiente código y descomentarlo, es decir eliminar !--   --:
       ```html
       <!--iframe width="80%" height="450" src="https://www.youtube.com/embed/tu-video-id" frameborder="0" allowfullscreen></iframe-->
       ```
