@@ -1,7 +1,7 @@
 ## Cómo subir videos a la carpeta VideoAbstracts
 
-- ** Subir los videos con extensión mp4 a esta carpeta **
-- Editar las rutas en las paginas que se subieron a las carpetas locales:
+- **Subir los videos con extensión mp4 a esta carpeta**
+- **Editar las rutas en las paginas que se subieron a las carpetas locales**:
   * En la versión en inglés:
       1. Entrar al archivo [index.html](https://github.com/LaboratorioSaludVisual/LabSaludVisual/blob/main/index.html) 
       2. Ir a la línea 364 del código, donde empieza la sección de Video Abstracts (sección de videos).
@@ -20,7 +20,7 @@
       ```
       4. Cambiar nombre_del_video.mp4 por el nombre del video, asegurándo de que esté en la carpeta VideoAbstracts.
       
-- Editar las rutas en las paginas de los videos de Internet:
+- **Editar las rutas en las paginas de los videos de Internet**:
   * En la versión en inglés:
       1. Entrar al archivo [index.html](https://github.com/LaboratorioSaludVisual/LabSaludVisual/blob/main/index.html) 
       2. Ir a la línea 364 del código, donde empieza la sección de Video Abstracts (sección de videos).
