@@ -189,7 +189,7 @@ body::before {
 }
 .home-image {
   width: 100%; /* Ocupa todo el ancho disponible */
-  max-width: 900px; /* Aumenta el tamaño máximo de la imagen */
+  max-width: 800px; /* Aumenta el tamaño máximo de la imagen */
   height: auto; /* Mantiene las proporciones de la imagen */
 }
 @media (min-width: 769px) {
