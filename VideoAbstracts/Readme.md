@@ -51,7 +51,7 @@
           * Copiar el código que aparece en el cuadro de texto (será un código <iframe>).
        5. Reemplaza la ruta del video en el código del iframe:
           * Pegar el código completo que se copio de YouTube.
-          * Reemplazar toda la ruta `--color-primaryhttps://www.youtube.com/embed/tu-video-id´ por la que se copió en el paso anterior.  `--color-primary´
+          * Reemplazar toda la ruta `https://www.youtube.com/embed/tu-video-id´ por la que se copió en el paso anterior.  
       
 
 
