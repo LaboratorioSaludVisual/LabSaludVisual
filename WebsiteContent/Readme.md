@@ -15,10 +15,3 @@
      <p>Descripción o título del miembro.</p>
    </div>
 
-### Explicación:
-
-- He utilizado los "triple backticks" \``` para encapsular el bloque de código HTML, lo que permite que se vea resaltado y con fondo oscuro en GitHub.
-- Esto te permite copiar y pegar el bloque de código HTML directamente en tu `README.md` para que aparezca bien formateado y fácil de copiar para otros usuarios.
-
-Ahora solo necesitas copiar y pegar este texto directamente en tu archivo `README.md`. ¡Quedará como querías, con el fondo oscuro y formato de código en GitHub!
-
