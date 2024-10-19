@@ -42,7 +42,7 @@
       2. Ir a la línea 364 del código, donde empieza la sección de Video Abstracts (sección de videos).
       3. Buscar la línea 381, que tiene el siguiente código y descomentarlo, es decir eliminar <!--   -->:
       ```html
-      <iframe width="80%" height="450" src="https://www.youtube.com/embed/tu-video-id" frameborder="0" allowfullscreen></iframe>
+      <!--iframe width="80%" height="450" src="https://www.youtube.com/embed/tu-video-id" frameborder="0" allowfullscreen></iframe-->
       ```
       4. Obtener el código de inserción desde YouTube:
           * En YouTube, buscar el video que se desea agregar.
