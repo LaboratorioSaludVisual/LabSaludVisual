@@ -12,10 +12,10 @@
    - Utiliza el siguiente bloque de código como plantilla para agregar un nuevo miembro.
 
    ```html
-<div class="miembro">
-  <img src="images/nombre_del_miembro.jpg" alt="Nombre del miembro">
-  <h3>Nombre del miembro</h3>
-  <p>Descripción o título del miembro.</p>
-</div>
+   <div class="miembro">
+     <img src="images/nombre_del_miembro.jpg" alt="Nombre del miembro">
+     <h3>Nombre del miembro</h3>
+     <p>Descripción o título del miembro.</p>
+   </div>
 
 
