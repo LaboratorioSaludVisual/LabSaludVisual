@@ -1,7 +1,7 @@
 ## Archivos CSS Principales:
 1- style.css: Este es el archivo principal que contiene los estilos personalizados para toda la página web. Aquí se definen:
 
-    - Colores y Tipografía: Se utilizan variables CSS como --color-primary y --color-secondary para manejar los colores del sitio. También se establece la tipografía base.
+    - Colores y Tipografía: Se utilizan variables CSS como -color-primary y -color-secondary para manejar los colores del sitio. También se establece la tipografía base.
     - Diseño Responsivo: El archivo contiene media queries que ajustan el diseño en dispositivos móviles y pantallas grandes.
     - Estilos Generales: Define márgenes, padding, tamaños de fuente y espaciado entre elementos.
     - Estilos de Navegación: Se maneja el menú principal con flexbox, ajustando su diseño tanto en pantallas grandes como en móviles.
