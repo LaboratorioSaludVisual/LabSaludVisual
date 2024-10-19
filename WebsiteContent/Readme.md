@@ -10,7 +10,7 @@
 
    ```html
    <div class="miembro">
-     <img src="images/codigo_miembro.jpg" alt="Nombre del miembro">
+     <img src="images/nombre_del_miembro.jpg" alt="Nombre del miembro">
      <h3>Nombre del miembro</h3>
      <p>Descripción o título del miembro.</p>
    </div>
