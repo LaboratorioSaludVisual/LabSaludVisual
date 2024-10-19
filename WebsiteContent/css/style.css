@@ -192,6 +192,13 @@ body::before {
   max-width: 800px; /* Aumenta el tamaño máximo de la imagen */
   height: auto; /* Mantiene las proporciones de la imagen */
 }
+@media (min-width: 1200px) {
+  .home-content {
+    margin-left: -50px; /* Aumenta el margen a la izquierda en pantallas grandes */
+  }
+  .home-image {
+    margin-left: 0; /* Alinea la imagen del logo a la izquierda */
+  }}
 @media (min-width: 769px) {
   .mobile-home {
     display: none;
@@ -373,7 +380,6 @@ body::before {
   .member-title {
     margin-bottom: 30px; /* Ajusta el espaciado entre los nombres y títulos en móviles */
   }}
-  
 /* -------------------------------------------------------------------------------------- */
 /*                          Sección "Publications" (versión PC y Movil)                            */
 /* -------------------------------------------------------------------------------------- */
