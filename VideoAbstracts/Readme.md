@@ -35,7 +35,7 @@
           * Copiar el código que aparece en el cuadro de texto (será un código <iframe>).
        5. Reemplaza la ruta del video en el código del iframe:
           * Pegar el código completo que se copio de YouTube.
-          * Reemplaza toda la ruta https://www.youtube.com/embed/tu-video-id por la que copiaste en el paso anterior.
+          * Reemplaza toda la ruta https://www.youtube.com/embed/tu-video-id por la que se copió en el paso anterior.
       
   * En la versión en español:
       1. Entrar al archivo [index_es.html](https://github.com/LaboratorioSaludVisual/LabSaludVisual/blob/main/index_es.html)
@@ -51,7 +51,7 @@
           * Copiar el código que aparece en el cuadro de texto (será un código <iframe>).
        5. Reemplaza la ruta del video en el código del iframe:
           * Pegar el código completo que se copio de YouTube.
-          * Reemplaza toda la ruta https://www.youtube.com/embed/tu-video-id por la que copiaste en el paso anterior.
+          * Reemplaza toda la ruta https://www.youtube.com/embed/tu-video-id por la que se copió en el paso anterior.
       
 
 
