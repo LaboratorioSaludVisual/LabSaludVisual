@@ -135,7 +135,7 @@ body::before {
 }
 .main-nav .logos img {
   height: 40px;
-  margin-right: 10px; /* Ajusta el espacio entre el logo y los elementos de la lista */
+  margin-left: 10px; /* Ajusta el espacio entre el logo y los elementos de la lista */
   object-fit: contain;
 }
 /* -------------------------------------------------------------------------------------- */
