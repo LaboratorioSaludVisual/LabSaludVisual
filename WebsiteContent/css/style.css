@@ -688,3 +688,6 @@ footer .right-text-content ul li a {
 footer .right-text-content ul li a:hover {
   color: #2a2a2a;
 }
+section {
+  scroll-margin-top: 60px; /* Ajusta este valor según la altura de tu barra de navegación */
+}
